@@ -1,12 +1,131 @@
-.App {
+body{
+  background-color: #eeb7f0d3;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  text-decoration:blueviolet;
+   
+  
+}
+
+.nav-ul li a{
+  padding:5px;
+}
+
+.nav-ul{
+  background-color:  rgb(189, 207, 245);
+  padding: 5px;
+  margin:auto;
+}
+
+
+.nav-ul li a:hover {
+  background-color: rgb(138, 128, 128);
+}
+.nav-right{
+  text-align: right;
+}
+.Footer{
+  position: absolute;
   text-align: center;
-}
+  bottom: 0;
+  width:100%;
+  background-color: rgb(189, 207, 245);
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  
+  .register {
+    width: 400px;
+    margin-top: 100px ; 
+    margin-left: 30%;
 
+    padding: 20px;
+    border: 1px solid black;
+    padding-top: 40px;
+    border-radius: 5px;
+    background-color:rgb(248, 246, 197);
+  }
+  
+  .register h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    
+  }
+  
+  
+  .inputBox {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid brown;
+    background-color: rgb(107, 129, 150);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: black;
+    
+    
+  }
+  
+  button {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 30%;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #300a6d;
+  }
+  .logo{
+    width: 50px;
+    height:50px;
+    float: left;
+  }
+
+  .invalid-input{
+    display: block;
+    color: darkred;
+    margin-left: 40px;
+    margin-top: -5px;
+  }
+  .product-list{
+    text-align: center;
+    margin-top: 50px;
+  }
+  .product-list ul li{
+    display:inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    width:150px
+  }
+  .product-list ul{
+    margin: 0px;
+  }
+
+  .product-list button{
+    margin-left: 2px;
+    background-color: red;
+    width: auto;
+  }
+  .search-box {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+    font-size: 16px;
+}
+  
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
